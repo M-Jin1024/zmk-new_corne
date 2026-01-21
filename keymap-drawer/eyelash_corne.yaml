@@ -44,13 +44,13 @@ layers:
   - {t: /, s: '?'}
   - RIGHT GUI
   - $$mdi:keyboard-tab$$
-  - SYMBOL
+  - NUMBER
   - {t: '$$mdi:keyboard-space$$', h: Fn}
   - {t: '$$mdi:keyboard-return$$', h: Fn}
   - SYMBOL
   - $$mdi:apple-keyboard-option$$
   NUMBER:
-  - Ctl+F
+  - Gui+F
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
   - {t: '3', s: '#'}
@@ -64,9 +64,9 @@ layers:
   - {t: '0', s: )}
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: CLCK, h: '$$mdi:gesture-tap-hold$$'}
-  - {t: A, h: '$$mdi:apple-keyboard-command$$'}
-  - {t: C, h: '$$mdi:apple-keyboard-command$$'}
-  - {t: V, h: '$$mdi:apple-keyboard-command$$'}
+  - Gui+A
+  - Gui+C
+  - Gui+V
   - Ctl+Sft+1
   - Sft+Ctl+2
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
@@ -93,7 +93,7 @@ layers:
   - RGB HUI
   - PG DN
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - INS
   - $$mdi:backspace-reverse-outline$$
@@ -142,10 +142,10 @@ layers:
   - {t: \, s: '|'}
   - '~'
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {type: held alternate}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   Fn:
   - '&studio_unlock'
