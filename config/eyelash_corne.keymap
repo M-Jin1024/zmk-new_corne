@@ -67,10 +67,10 @@
         default_layer {
             display-name = "QWERTY";
             bindings = <
-&kp ESC    &kp Q  &kp W  &kp E    &kp R  &kp T                               &kp UP                &kp Y        &kp U  &kp I      &kp O    &kp P     &kp BSPC
-&td0       &kp A  &kp S  &kp D    &kp F  &kp G                     &kp LEFT  &kp ENTER  &kp RIGHT  &kp H        &kp J  &kp K      &kp L    &kp SEMI  &kp SQT
-&kp LCTRL  &kp Z  &kp X  &kp C    &kp V  &kp B        &kp SPACE              &kp DOWN              &kp N        &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RIGHT_GUI
-                         &kp TAB  &mo 1  &lt 3 SPACE                                               &lt 3 ENTER  &mo 2  &kp RALT
+&kp ESC        &kp Q  &kp W  &kp E    &kp R  &kp T                               &kp UP                &kp Y        &kp U  &kp I      &kp O    &kp P     &kp BSPC
+&kp LC(SPACE)  &kp A  &kp S  &kp D    &kp F  &kp G                     &kp LEFT  &kp ENTER  &kp RIGHT  &kp H        &kp J  &kp K      &kp L    &kp SEMI  &kp SQT
+&kp LCTRL      &kp Z  &kp X  &kp C    &kp V  &kp B        &kp SPACE              &kp DOWN              &kp N        &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RIGHT_GUI
+                             &kp TAB  &mo 2  &lt 3 SPACE                                               &lt 3 ENTER  &mo 2  &kp RALT
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
@@ -80,7 +80,7 @@
             display-name = "NUMBER";
             bindings = <
 &kp LC(F)        &kp N1        &kp N2        &kp N3        &kp N4                &kp N5                                              &mmv MOVE_UP                     &kp N6           &kp N7           &kp N8           &kp N9           &kp N0           &kp BSPC
-&sk CLCK         &kp LC(A)     &kp LC(C)     &kp LC(V)     &kp LC(LS(NUMBER_1))  &kp LS(LC(NUMBER_2))                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp HOME         &kp LEFT         &kp UP           &kp RIGHT        &kp END          &kp PG_UP
+&sk CLCK         &kp LG(A)     &kp LG(C)     &kp LG(V)     &kp LC(LS(NUMBER_1))  &kp LS(LC(NUMBER_2))                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp HOME         &kp LEFT         &kp UP           &kp RIGHT        &kp END          &kp PG_UP
 &rgb_ug RGB_TOG  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3          &bt BT_CLR            &kp C_MUTE                    &mmv MOVE_DOWN                   &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &kp DOWN         &rgb_ug RGB_EFF  &rgb_ug RGB_HUI  &kp PG_DN
                                              &trans        &trans                &trans                                                                               &kp INS          &kp DEL          &rgb_ug RGB_SAI
             >;
