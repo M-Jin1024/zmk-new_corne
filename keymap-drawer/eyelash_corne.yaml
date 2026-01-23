@@ -89,7 +89,7 @@ layers:
   - RGB BRI
   - RGB BRD
   - $$mdi:arrow-down-bold$$
-  - RGB EFF
+  - {t: '$$mdi:transfer$$', type: trans}
   - RGB HUI
   - PG DN
   - {t: '$$mdi:transfer$$', type: trans}
