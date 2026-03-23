@@ -156,9 +156,9 @@ layers:
   - F5
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
   - F6
-  - F7
+  - $$mdi:mouse-left-click-outline$$
   - F8
-  - F9
+  - $$mdi:mouse-right-click-outline$$
   - F10
   - F11
   - {t: '$$mdi:transfer$$', type: trans}
